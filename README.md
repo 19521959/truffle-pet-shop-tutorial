@@ -41,4 +41,4 @@ Enter the mnemonic that is displayed in Ganache to your wallet. We are going to 
 **Warning**: Do not use this mnemonic on the main Ethereum network (mainnet). If you send ETH to any account generated from this mnemonic, you will lose it all!
 
 
-![](https://raw.githubusercontent.com/regchiu/resources/master/truffle-pets-shop-turtorial/ganche-mnemonic.png)
+![](preview/ganche_mnemonic.png)
