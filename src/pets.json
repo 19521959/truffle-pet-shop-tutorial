@@ -1,130 +1,130 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Lisco, Alabama"
+    "name": "Pikachu",
+    "picture": "images/pikachu.png",
+    "gender": "Male",
+    "species":"Pikachu species",
+    "type": "Electric"
   },
   {
     "id": 1,
-    "name": "Gina",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Tooleville, West Virginia"
+    "name": "Blastoise",
+    "picture": "images/blastoise.jpg",
+    "gender": "Male",
+    "species": "Blastoise species",
+    "type": "Water"
   },
   {
     "id": 2,
-    "name": "Collins",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Freeburn, Idaho"
+    "name": "Charizard",
+    "picture": "images/pokemon.jpg",
+    "gender": "Male",
+    "species": "Charizard species",
+    "type": "Fire, Flyling"
   },
   {
     "id": 3,
-    "name": "Melissa",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Camas, Pennsylvania"
+    "name": "Ivysaur",
+    "picture": "images/Ivysaur.jpg",
+    "gender": "Female",
+    "species": "Ivysaur species",
+    "type": "Grass, Poison"
   },
   {
     "id": 4,
-    "name": "Jeanine",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Gerber, South Dakota"
+    "name": "Dedene",
+    "picture": "images/dedenne.jpg",
+    "gender": "Female",
+    "species": "Dedene species",
+    "type": "Electric, Fairy"
   },
   {
     "id": 5,
-    "name": "Elvia",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Innsbrook, Illinois"
+    "name": "Snivy",
+    "picture": "images/snivy.jpg",
+    "gender": "Female",
+    "species": "Snivy species",
+    "type": "Grass"
   },
   {
     "id": 6,
-    "name": "Latisha",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Soudan, Louisiana"
+    "name": "Flygon",
+    "picture": "images/flygon.jpg",
+    "gender": "Male",
+    "species": "Flygon species",
+    "type": "Ground, Dragon"
   },
   {
     "id": 7,
-    "name": "Coleman",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Jacksonwald, Palau"
+    "name": "Cinccino",
+    "picture": "images/cinccino.jpg",
+    "gender": "Female",
+    "species": "Cinccino species",
+    "type": "Normal"
   },
   {
     "id": 8,
-    "name": "Nichole",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Honolulu, Hawaii"
+    "name": "Dedene",
+    "picture": "images/dedenne.jpg",
+    "gender": "Female",
+    "species": "Normal species",
+    "type": "Electric, Fairy"
   },
   {
     "id": 9,
-    "name": "Fran",
-    "picture": "images/boxer.jpeg",
-    "age": 3,
-    "breed": "Boxer",
-    "location": "Matheny, Utah"
+    "name": "Ivysaur",
+    "picture": "images/Ivysaur.jpg",
+    "gender": "Male",
+    "species": "Ivysaur species",
+    "type": "Grass, Poison"
   },
   {
     "id": 10,
-    "name": "Leonor",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Tyhee, Indiana"
+    "name": "Pikachu",
+    "picture": "images/pikachu.png",
+    "gender": "Female",
+    "species": "Pikachu species",
+    "type": "Electric"
   },
   {
     "id": 11,
-    "name": "Dean",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Windsor, Montana"
+    "name": "Cinccino",
+    "picture": "images/cinccino.jpg",
+    "gender": "Female",
+    "species": "Cinccino species",
+    "type": "Normal"
   },
   {
     "id": 12,
-    "name": "Stevenson",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Kingstowne, Nevada"
+    "name": "Pikachu",
+    "picture": "images/pikachu.png",
+    "gender": "Female",
+    "species": "Pikachu species",
+    "type": "Electric"
   },
   {
     "id": 13,
-    "name": "Kristina",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 4,
-    "breed": "Golden Retriever",
-    "location": "Sultana, Massachusetts"
+    "name": "Flygon",
+    "picture": "images/flygon.jpg",
+    "gender": "Female",
+    "species": "Flygon species",
+    "type": "Ground, Dragon"
   },
   {
     "id": 14,
-    "name": "Ethel",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Broadlands, Oregon"
+    "name": "Snivy",
+    "picture": "images/snivy.jpg",
+    "gender": "Male",
+    "species": "Snivy species",
+    "type": "Grass"
   },
   {
     "id": 15,
-    "name": "Terry",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Dawn, Wisconsin"
+    "name": "Ivysaur",
+    "picture": "images/Ivysaur.jpg",
+    "gender": "Female",
+    "species": "Ivysaur species",
+    "type": "Grass, Poison"
   }
 ]

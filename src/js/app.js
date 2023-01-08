@@ -11,9 +11,9 @@ App = {
       for (i = 0; i < data.length; i ++) {
         petTemplate.find('.panel-title').text(data[i].name);
         petTemplate.find('img').attr('src', data[i].picture);
-        petTemplate.find('.pet-breed').text(data[i].breed);
-        petTemplate.find('.pet-age').text(data[i].age);
-        petTemplate.find('.pet-location').text(data[i].location);
+        petTemplate.find('.pet-breed').text(data[i].species);
+        petTemplate.find('.pet-gender').text(data[i].gender);
+        petTemplate.find('.pet-type').text(data[i].type);
         petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
 
         petsRow.append(petTemplate.html());
@@ -41,13 +41,13 @@ App = {
     } else { 
       // If no injected web3 instance is detected, fall back to Ganache
       // This fallback is fine for development environments, but insecure and not suitable for production
-      App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+      App.web3Provider = new Web3.providers.HttpProvider('http://localhost:8545');
     }
     web3 = new Web3(App.web3Provider);
     return App.initContract();
   },
 
-  initContract: function() {
+  initContract: async function() {
     $.getJSON('Adoption.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var AdoptionArtifact = data;
@@ -58,7 +58,7 @@ App = {
 
       // Use our contract to retrieve and mark the adopted pets
       return App.markAdopted();
-    })
+    });
     return App.bindEvents();
   },
 
@@ -103,9 +103,11 @@ App = {
         // Execute adopt as a transaction by sending account
         return adoptionInstance.adopt(petId, {from: account});
       });
-    }).then(function(result){
+    })
+    .then(function(result){
       return App.markAdopted();
-    }).catch(function(err) {
+    })
+    .catch(function(err) {
       console.log(err);
     });
   }
